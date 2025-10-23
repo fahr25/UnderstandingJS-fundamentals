@@ -3,17 +3,14 @@
  * OBJECTIVE ** Create your own loop using the following logic
  */
 
-
-// Commit 2: "added even number condition"
-for(let i = 0; i < 21; i++) {
-  // even number conditional check
-  if(i % 2 === 0) {
-    console.log(i);
+// Refactored variable to make it more understandable
+for(let currentNumber = 0; currentNumber < 21; currentNumber++) {
+  if(currentNumber % 2 === 0) {
+    console.log(`The number ${currentNumber} is an even number!`);
   }
 }
 
 
 
 
-// Commit 3: "refactored variable names for clarity"
 
