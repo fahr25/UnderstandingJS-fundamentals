@@ -3,11 +3,17 @@
  * OBJECTIVE ** Create your own loop using the following logic
  */
 
-// Commit 1: "scaffold loop structure"
-for(let i = 0; i < 21; i++) {
-  console.log(i);
-} 
 
 // Commit 2: "added even number condition"
+for(let i = 0; i < 21; i++) {
+  // even number conditional check
+  if(i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+
+
+
 // Commit 3: "refactored variable names for clarity"
 
