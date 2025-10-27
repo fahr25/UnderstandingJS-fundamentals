@@ -11,8 +11,10 @@
 
 for(let i = 1; i <= 5; i++) {
   let row = "";
-  console.log("row: " + i);
+
   for(let j = 1; j <= 5; j++) {
-    console.log("column: " + j);
+    row += (i * j) + "\t";
   }
+
+  console.log(row);
 }
