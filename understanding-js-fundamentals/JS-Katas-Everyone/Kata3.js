@@ -9,12 +9,18 @@
 */
 
 
-for(let i = 1; i <= 5; i++) {
-  let row = "";
+for(let row = 1; row <= 5; row++) {
+  let table = "";
 
-  for(let j = 1; j <= 5; j++) {
-    row += (i * j) + "\t";
+  for(let column = 1; column <= 5; column++) {
+    table += (row * column) + "\t";
   }
 
-  console.log(row);
+  console.log(table);
+}
+
+// Stretch Goal: Guard clause example
+function printNumber(num) {
+  if (num <= 0) return console.log("Please enter a positive number.");
+  console.log("Number:", num);
 }
